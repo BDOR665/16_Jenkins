@@ -22,7 +22,7 @@ public class CalculatorController {
     /* Application 상태 확인용 health check 용 메서드 */
     @GetMapping("/health")
     public String health(){
-        return "it's not ok";
+        return "it's argocd test ok";
     }
 
     /* frontend 서버에서 넘어오는 num1 , num2 를 받기 위한 메서드 */
